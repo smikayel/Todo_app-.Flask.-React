@@ -38,7 +38,7 @@ We expect a very basic UI that shows the backend functionality. Simmilar to
 ![](basic_ui.png)
 
 
-It should be buildt using [React](https://react.dev/), bonus points
+It should be buildt using [TypeScript](https://www.typescriptlang.org/) and [React](https://react.dev/), bonus points
 if you use a component library such as [AntD](https://ant.design/) or [MUI](https://mui.com/).
 
 ## Reviewal
