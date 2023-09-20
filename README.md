@@ -19,7 +19,7 @@ and your ability to set up a complete stack.
 
 ### Backend
 It should be REST API written in python, using a framework such as `FastAPI`, `Litestar`, `Flask`,
-or simmilar (Note internally we most commonly use `FastAPI`).
+or similar (Note internally we most commonly use `FastAPI`).
 
 It should have a few endpoints that the UI can use too
  - add a task
@@ -33,7 +33,7 @@ The tasks should be stored in a postgress db accessed via an ORM layer
 ex. [SQLAlchemy](https://docs.sqlalchemy.org/en/20/orm/).
 
 ## UI
-We expect a very basic UI that shows the backend functionality. Simmilar to
+We expect a very basic UI that shows the backend functionality. Similar to
 
 ![](basic_ui.png)
 
@@ -68,7 +68,7 @@ Please include a README with a summary of your thoughts (why you included or
 excluded certain things), if there was anything unclear about the task, or ideas
 for things you would improve if you had more time.
 
-In the repo there should be a `docker-compose.yml` file simmilar to
+In the repo there should be a `docker-compose.yml` file similar to
 
 ```yml
 version: "3.7"
@@ -88,7 +88,7 @@ services:
     ...
 
   db:
-    image: postgres:13
+    image: postgres:15
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
