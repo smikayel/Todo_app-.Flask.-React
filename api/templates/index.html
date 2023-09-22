@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candlestick Chart and Pie Chart</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Candlestick Chart</h1>
+        <div id="candlestick-chart">{{ candlestick_div|safe }}</div>
+    </div>
+    <div>
+        <h1>Pie Chart - Market Caps</h1>
+        <div id="pie-chart">{{ pie_div|safe }}</div>
+    </div>
+</body>
+</html>
